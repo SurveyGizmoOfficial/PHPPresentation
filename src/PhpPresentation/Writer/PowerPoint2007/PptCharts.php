@@ -792,7 +792,7 @@ class PptCharts extends AbstractDecoratorWriter
      * @param  boolean $includeSheet
      * @throws \Exception
      */
-    protected function writeTypeBar(XMLWriter $objWriter, Bar $subject, $includeSheet = false, $showAxisCategories = false)
+    protected function writeTypeBar(XMLWriter $objWriter, Bar $subject, $includeSheet = false)
     {
         // c:bar3DChart
         $objWriter->startElement('c:barChart');
